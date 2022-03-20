@@ -16,13 +16,6 @@ class NoticeViewController: UIViewController {
     @IBOutlet weak var detailLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        
-    }
-
-
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         

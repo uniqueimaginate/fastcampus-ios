@@ -17,6 +17,7 @@
 		D06E142A27E76F4A009350E4 /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E142827E76F4A009350E4 /* NoticeViewController.swift */; };
 		D06E142B27E76F4A009350E4 /* NoticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D06E142927E76F4A009350E4 /* NoticeViewController.xib */; };
 		D06E142D27E77292009350E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D06E142C27E77292009350E4 /* GoogleService-Info.plist */; };
+		D06E142F27E77571009350E4 /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = D06E142E27E77571009350E4 /* RemoteConfigDefaults.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D06E142827E76F4A009350E4 /* NoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
 		D06E142927E76F4A009350E4 /* NoticeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoticeViewController.xib; sourceTree = "<group>"; };
 		D06E142C27E77292009350E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D06E142E27E77571009350E4 /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
 		D903EF8D2DDD260A120447C0 /* Pods-11_Notice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-11_Notice.release.xcconfig"; path = "Target Support Files/Pods-11_Notice/Pods-11_Notice.release.xcconfig"; sourceTree = "<group>"; };
 		E7D27720E52A234A82C8409F /* Pods_11_Notice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_11_Notice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -80,6 +82,7 @@
 				D06E141427E76F13009350E4 /* AppDelegate.swift */,
 				D06E141627E76F13009350E4 /* SceneDelegate.swift */,
 				D06E141827E76F13009350E4 /* ViewController.swift */,
+				D06E142E27E77571009350E4 /* RemoteConfigDefaults.plist */,
 				D06E142827E76F4A009350E4 /* NoticeViewController.swift */,
 				D06E142927E76F4A009350E4 /* NoticeViewController.xib */,
 				D06E141A27E76F13009350E4 /* Main.storyboard */,
@@ -97,7 +100,6 @@
 				AE0A2F2170441556DB8A5A5C /* Pods-11_Notice.debug.xcconfig */,
 				D903EF8D2DDD260A120447C0 /* Pods-11_Notice.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -161,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D06E142F27E77571009350E4 /* RemoteConfigDefaults.plist in Resources */,
 				D06E142127E76F16009350E4 /* LaunchScreen.storyboard in Resources */,
 				D06E141E27E76F16009350E4 /* Assets.xcassets in Resources */,
 				D06E142D27E77292009350E4 /* GoogleService-Info.plist in Resources */,
