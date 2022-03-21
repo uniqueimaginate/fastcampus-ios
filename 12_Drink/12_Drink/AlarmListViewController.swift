@@ -6,10 +6,12 @@
 //
 
 import UIKit
+import UserNotifications
 
 class AlarmListViewController: UITableViewController {
 
     var alarms: [Alarm] = []
+    let userNotificationCenter = UNUserNotificationCenter.current()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +40,7 @@ class AlarmListViewController: UITableViewController {
             self.alarms = alarmList
             
             UserDefaults.standard.set(try? PropertyListEncoder().encode(self.alarms), forKey: "alarms")
-            
+            self.userNotificationCenter.addNotificationRequest(by: newAlert)
             self.tableView.reloadData()
         }
         
@@ -90,6 +92,7 @@ class AlarmListViewController: UITableViewController {
             self.alarms.remove(at: indexPath.row)
             UserDefaults.standard.set(try? PropertyListEncoder().encode(self.alarms), forKey: "alarms")
             
+            userNotificationCenter.removePendingNotificationRequests(withIdentifiers: [alarms[indexPath.row].id])
             self.tableView.reloadData()
         return
         default:
