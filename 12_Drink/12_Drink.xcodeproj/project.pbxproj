@@ -17,6 +17,7 @@
 		D0D8DBAE27E8B38600E5DBDC /* AlertListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D8DBAC27E8B38600E5DBDC /* AlertListCell.xib */; };
 		D0D8DBB027E8B4DE00E5DBDC /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D8DBAF27E8B4DE00E5DBDC /* Alarm.swift */; };
 		D0D8DBB227E8B70F00E5DBDC /* AddAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D8DBB127E8B70F00E5DBDC /* AddAlarmViewController.swift */; };
+		D0D8DBB427E8C8F000E5DBDC /* UNNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D8DBB327E8C8F000E5DBDC /* UNNotificationCenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D0D8DBAC27E8B38600E5DBDC /* AlertListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertListCell.xib; sourceTree = "<group>"; };
 		D0D8DBAF27E8B4DE00E5DBDC /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
 		D0D8DBB127E8B70F00E5DBDC /* AddAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmViewController.swift; sourceTree = "<group>"; };
+		D0D8DBB327E8C8F000E5DBDC /* UNNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNNotificationCenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				D0D8DBAF27E8B4DE00E5DBDC /* Alarm.swift */,
 				D0D8DBAB27E8B38600E5DBDC /* AlertListCell.swift */,
 				D0D8DBAC27E8B38600E5DBDC /* AlertListCell.xib */,
+				D0D8DBB327E8C8F000E5DBDC /* UNNotificationCenter.swift */,
 				D0D8DB9E27E8B20200E5DBDC /* Assets.xcassets */,
 				D0D8DBA027E8B20200E5DBDC /* LaunchScreen.storyboard */,
 				D0D8DBA327E8B20200E5DBDC /* Info.plist */,
@@ -156,6 +159,7 @@
 				D0D8DBAA27E8B24800E5DBDC /* AlarmListViewController.swift in Sources */,
 				D0D8DBB027E8B4DE00E5DBDC /* Alarm.swift in Sources */,
 				D0D8DBAD27E8B38600E5DBDC /* AlertListCell.swift in Sources */,
+				D0D8DBB427E8C8F000E5DBDC /* UNNotificationCenter.swift in Sources */,
 				D0D8DB9827E8B20000E5DBDC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
