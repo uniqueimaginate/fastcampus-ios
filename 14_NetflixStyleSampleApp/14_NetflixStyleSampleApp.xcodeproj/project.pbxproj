@@ -17,6 +17,7 @@
 		D0529F0727ECAE860080E293 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0529F0627ECAE860080E293 /* Content.swift */; };
 		D0529F0927ECB12E0080E293 /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0529F0827ECB12E0080E293 /* ContentCollectionViewCell.swift */; };
 		D0529F0B27ECB2A70080E293 /* ContentCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0529F0A27ECB2A70080E293 /* ContentCollectionViewHeader.swift */; };
+		D0529F0D27ECBC330080E293 /* ContentCollectionViewRankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0529F0C27ECBC330080E293 /* ContentCollectionViewRankCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D0529F0627ECAE860080E293 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		D0529F0827ECB12E0080E293 /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewCell.swift; sourceTree = "<group>"; };
 		D0529F0A27ECB2A70080E293 /* ContentCollectionViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewHeader.swift; sourceTree = "<group>"; };
+		D0529F0C27ECBC330080E293 /* ContentCollectionViewRankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewRankCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				D0529EF927ECAAEF0080E293 /* Info.plist */,
 				D0529EFF27ECAB870080E293 /* HomeViewController.swift */,
 				D0529F0627ECAE860080E293 /* Content.swift */,
+				D0529F0C27ECBC330080E293 /* ContentCollectionViewRankCell.swift */,
 				D0529F0A27ECB2A70080E293 /* ContentCollectionViewHeader.swift */,
 				D0529F0827ECB12E0080E293 /* ContentCollectionViewCell.swift */,
 				D0529F0427ECAE630080E293 /* Content.plist */,
@@ -158,6 +161,7 @@
 				D0529EEC27ECAAED0080E293 /* AppDelegate.swift in Sources */,
 				D0529F0B27ECB2A70080E293 /* ContentCollectionViewHeader.swift in Sources */,
 				D0529EEE27ECAAED0080E293 /* SceneDelegate.swift in Sources */,
+				D0529F0D27ECBC330080E293 /* ContentCollectionViewRankCell.swift in Sources */,
 				D0529F0027ECAB870080E293 /* HomeViewController.swift in Sources */,
 				D0529F0727ECAE860080E293 /* Content.swift in Sources */,
 				D0529F0927ECB12E0080E293 /* ContentCollectionViewCell.swift in Sources */,
